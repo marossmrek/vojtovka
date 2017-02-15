@@ -1,0 +1,21 @@
+<wpml-config>
+    <admin-texts>
+        <key name="babysitter_data">
+            <key name="babysitter__header-phone-title" />
+            <key name="babysitter__header-email-title" />
+            <key name="opt-blog-title" />
+            <key name="babysitter__blog-more-txt" />
+            <key name="opt-contact-title" />
+            <key name="opt-contact-address" />
+            <key name="opt-contact-hours" />
+            <key name="opt-footer-text" />
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="copy">babysitter_format_gallery_id</custom-field>
+        <custom-field action="copy">babysitter_format_quote_author</custom-field>
+        <custom-field action="copy">babysitter_format_quote_pos</custom-field>
+        <custom-field action="copy">babysitter_format_link_url</custom-field>
+        <custom-field action="copy">babysitter_short_info</custom-field>
+    </custom-fields>
+</wpml-config>
