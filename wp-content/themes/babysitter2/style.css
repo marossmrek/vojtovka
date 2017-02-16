@@ -167,6 +167,21 @@ display:none;
 	font-size:small;
 }
 
+.maps_slovakia{
+	height: 100%;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top: 0%;
+	left: 0%;
+	background: #804949;
+}
+#svg2241 {
+	width: 90%;
+	height: 100%;
+	margin: 10%;
+	cursor:pointer;
+}
 
 /*--------------------------------------------------------------
 Galleries

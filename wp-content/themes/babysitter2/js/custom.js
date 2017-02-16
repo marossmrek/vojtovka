@@ -270,9 +270,18 @@
         /*  11. Slovakia maps - searching
          /* ----------------------------------------------------------- */
 
+        var bratislavskyKraj = ['Bratislava', 'Piestany'];
+
         $('svg').on('click', function(e){
-            var kraj = e.target;
-            console.log(kraj.getAttribute('data-name'));
+
+                var kraj = e.target;
+                console.log(kraj.getAttribute('data-name'));
+                $('.maps_slovakia').fadeOut(1000);
+
+                $('.job_listing_type-cvici').remove();
+                $('.job_listing_type-docvicila').remove();
+                $('.job_types').remove();
+
         })
 
         /* ----------------------------------------------------------- */
@@ -284,6 +293,8 @@
         if(text.text()=="Your email "){text.remove()}
         var terapeutForm = $('#post-555');
         var storyForm = $('#post-470');
+        var storyList = $('#post-498');
+        var terapeutList = $('#post-582');
         if(terapeutForm.hasClass('page post-555 type-page status-publish hentry')){
             $('.level-0').first().remove();
             $('.level-0').last().remove();
@@ -296,6 +307,26 @@
         else if(storyForm.hasClass('page post-470 type-page status-publish hentry')){
                 $('option.level-0:nth-child(2)').remove();
         }
+        else if(storyList.hasClass('page post-498 type-page status-publish hentry')){
+
+            storyList.on('mouseenter',function(){
+                $('.job_listing_type-terapeut').remove();
+                $('.job_types > li:nth-child(2) > div:nth-child(1)').remove();
+            });
+        }
+        
+       /* else if(terapeutList.hasClass('page post-582 type-page status-publish hentry')){
+
+            terapeutList.on('mouseenter',function(){
+                $('.job_listing_type-cvici').remove();
+                $('.job_listing_type-docvicila').remove();
+                $('.job_types').remove();
+            });
+        }*/
+
+
+
+
 
 
         // scroll body to 0px on click
