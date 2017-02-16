@@ -266,7 +266,39 @@
           }
       });
 
-      // scroll body to 0px on click
+        /* ----------------------------------------------------------- */
+        /*  11. Slovakia maps - searching
+         /* ----------------------------------------------------------- */
+
+        $('svg').on('click', function(e){
+            var kraj = e.target;
+            console.log(kraj.getAttribute('data-name'));
+        })
+
+        /* ----------------------------------------------------------- */
+        /*  12. Dirty register terapeut changing
+         /* ----------------------------------------------------------- */
+        /*$('#submit-job-form > fieldset:nth-child(2) > label:nth-child(1)').remove();*/
+        /*$('.job-manager-error').text('Vyplnte všetke povinné polia');*/
+        var text = jQuery('#submit-job-form > fieldset:nth-child(2) > label:nth-child(1)');
+        if(text.text()=="Your email "){text.remove()}
+        var terapeutForm = $('#post-555');
+        var storyForm = $('#post-470');
+        if(terapeutForm.hasClass('page post-555 type-page status-publish hentry')){
+            $('.level-0').first().remove();
+            $('.level-0').last().remove();
+            $('.fieldset-job_title > label:nth-child(1)').text('Telefónne číslo (povinné)');
+            $('.fieldset-job_description > label:nth-child(1)').text('Ako cvičíte s detičkami?');
+            $('.fieldset-job_type').css({display:'none'});
+            $('small.description:nth-child(2)').text('Ak vyplníte rodičia si Vás budu môcť vyhľadať podľa kraja');
+            $('#job_location');
+        }
+        else if(storyForm.hasClass('page post-470 type-page status-publish hentry')){
+                $('option.level-0:nth-child(2)').remove();
+        }
+
+
+        // scroll body to 0px on click
       $('#back-top a').click(function(e) {
           e.preventDefault();
           $('body,html').animate({

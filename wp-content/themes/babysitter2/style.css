@@ -159,6 +159,15 @@ a.btn.btn-lg.btn-primary{
 display:none;
 }
 
+#account_email{
+	display: none;
+}
+.fieldset-job_location > label:nth-child(1) > small:nth-child(1){
+	color: #000;
+	font-size:small;
+}
+
+
 /*--------------------------------------------------------------
 Galleries
 --------------------------------------------------------------*/
