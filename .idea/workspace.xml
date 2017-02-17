@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d3d2e31-a530-4b9e-95ce-26f771c34766" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/babysitter2/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/babysitter2/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/babysitter2/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/babysitter2/style.css" />
     </list>
     <ignored path="vojtovka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="316" column="8" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
+            <state relative-caret-position="528">
+              <caret line="350" column="34" selection-start-line="350" selection-start-column="34" selection-end-line="350" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -441,12 +439,12 @@
       <workItem from="1486568283351" duration="36000" />
       <workItem from="1486645943539" duration="55000" />
       <workItem from="1486646079152" duration="62000" />
-      <workItem from="1487249152277" duration="6942000" />
+      <workItem from="1487249152277" duration="11085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9979000" />
+    <option name="totallyTimeSpent" value="14122000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -752,8 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="316" column="8" selection-start-line="316" selection-start-column="8" selection-end-line="316" selection-end-column="8" />
+        <state relative-caret-position="528">
+          <caret line="350" column="34" selection-start-line="350" selection-start-column="34" selection-end-line="350" selection-end-column="34" />
           <folding />
         </state>
       </provider>

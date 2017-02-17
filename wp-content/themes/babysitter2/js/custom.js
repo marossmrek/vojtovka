@@ -270,18 +270,26 @@
         /*  11. Slovakia maps - searching
          /* ----------------------------------------------------------- */
 
-        var bratislavskyKraj = ['Bratislava', 'Piestany'];
+        var krajKonkretny;
+        var prehladavanyKraj;
+        var bratislavskyKraj = [' Bratislava', 'Piestany']; // just example
 
+        //event to clck on map
         $('svg').on('click', function(e){
 
                 var kraj = e.target;
-                console.log(kraj.getAttribute('data-name'));
+                krajKonkretny = kraj.getAttribute('data-name');
                 $('.maps_slovakia').fadeOut(1000);
 
                 $('.job_listing_type-cvici').remove();
                 $('.job_listing_type-docvicila').remove();
                 $('.job_types').remove();
 
+                // select kraj
+                if(krajKonkretny=="Bratislavský"){
+                    prehladavanyKraj = bratislavskyKraj;
+                    console.log(prehladavanyKraj);
+                }
         })
 
         /* ----------------------------------------------------------- */
@@ -314,15 +322,47 @@
                 $('.job_types > li:nth-child(2) > div:nth-child(1)').remove();
             });
         }
-        
-       /* else if(terapeutList.hasClass('page post-582 type-page status-publish hentry')){
+
+        else if(terapeutList.hasClass('page post-582 type-page status-publish hentry')){
 
             terapeutList.on('mouseenter',function(){
-                $('.job_listing_type-cvici').remove();
-                $('.job_listing_type-docvicila').remove();
-                $('.job_types').remove();
+                var kraje = $('.location');
+              /*  console.log(kraje);
+                console.log(prehladavanyKraj);*/
+
+                for ( var i = 0; kraje.length > i; i++ ){
+
+                        var mesto = kraje[i].innerText;
+                        console.log(mesto);
+
+                        for ( var j = 0; prehladavanyKraj.length > j; j++ ){
+
+                                console.log(prehladavanyKraj[j]);
+
+                                if ( mesto == prehladavanyKraj[j] ) {
+
+                                    console.log('mesta sa shoduju');
+
+                                }
+                                else {
+
+                                    console.log('nezhoduju sa mesta');
+                                }
+                        } continue;
+                }
+
+
+
+
+
+                /*   for(var i = 0; kraje.length>i; i++){
+                       for(var j; prehladavanyKraj.length>j; j++){
+                           console.log(prehladavanyKraj[j].innerText);
+                           console.log(kraj[i]);
+                       }
+                   }*/
             });
-        }*/
+        }
 
 
 
