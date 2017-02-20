@@ -174,7 +174,7 @@ display:none;
 	z-index: 999;
 	top: 0%;
 	left: 0%;
-	background: #804949;
+	background: #f0f7fa;
 }
 #svg2241 {
 	width: 90%;
@@ -185,6 +185,25 @@ display:none;
 
 .remove{
 	display:none;
+}
+
+#path2250:hover,
+#path2255:hover,
+#path2260:hover,
+#path2265:hover,
+#path2270:hover,
+#path2275:hover,
+#path2280:hover,
+#path2287:hover,
+#path2250:focus,
+#path2255:focus,
+#path2260:focus,
+#path2265:focus,
+#path2270:focus,
+#path2275:focus,
+#path2280:focus,
+#path2287:focus{
+	fill: #7fdbfd !important;
 }
 
 /*--------------------------------------------------------------

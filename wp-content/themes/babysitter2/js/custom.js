@@ -283,9 +283,9 @@
                 krajKonkretny = kraj.getAttribute('data-name');
                 $('.maps_slovakia').fadeOut(1000);
 
-                $('.job_listing_type-cvici').detach();
-                $('.job_listing_type-docvicila').detach();
-                $('.job_types').detach();
+                $('.job_listing_type-cvici').remove();
+                $('.job_listing_type-docvicila').remove();
+                $('.job_types').remove();
 
                 // select kraj
                 if(krajKonkretny=="Bratislavský"){
