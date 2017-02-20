@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9d3d2e31-a530-4b9e-95ce-26f771c34766" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/babysitter2/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/babysitter2/style.css" />
     </list>
     <ignored path="vojtovka.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +56,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="350" column="34" selection-start-line="350" selection-start-column="34" selection-end-line="350" selection-end-column="34" />
+            <state relative-caret-position="615">
+              <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -187,8 +188,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="182" column="18" selection-start-line="182" selection-start-column="18" selection-end-line="182" selection-end-column="18" />
+            <state relative-caret-position="482">
+              <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -444,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14122000" />
+    <option name="totallyTimeSpent" value="25959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -750,8 +751,279 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="350" column="34" selection-start-line="350" selection-start-column="34" selection-end-line="350" selection-end-column="34" />
+        <state relative-caret-position="30">
+          <caret line="272" column="16" selection-start-line="272" selection-start-column="16" selection-end-line="272" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/inc/widgets/widget__flickr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/woocommerce.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-comments-post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/404.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/job_manager/account-signin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="10" column="203" selection-start-line="10" selection-start-column="203" selection-end-line="10" selection-end-column="203" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/wp-job-manager-sk_SK.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="56" column="804" selection-start-line="56" selection-start-column="804" selection-end-line="56" selection-end-column="804" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/languages/plugins/wp-job-manager-sk_SK.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="225" column="34" selection-start-line="225" selection-start-column="34" selection-end-line="225" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="842" column="17" selection-start-line="842" selection-start-column="17" selection-end-line="842" selection-end-column="17" />
+          <folding>
+            <marker date="1487253509036" expanded="true" signature="16663:16670" ph="«" />
+            <marker date="1487253509036" expanded="true" signature="17100:17107" ph="»" />
+            <marker date="1487253509036" expanded="true" signature="24547:409643" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="24665:409632" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25365:25616" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25402:25602" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25418:25587" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25503:25570" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25625:25866" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25657:25856" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25737:25842" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="25889:26367" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="26376:58235" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="26389:26550" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="58244:68954" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="58257:58378" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="68963:92126" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="68976:69097" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="92135:113592" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="92148:92269" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="113601:131691" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="113614:113735" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="131700:155235" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="131713:131834" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="155244:178469" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="155257:155378" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="178478:203742" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="178491:178612" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="203751:221978" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="203764:203885" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="221987:254124" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="222000:222136" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="254133:254840" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="254214:254544" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="254849:255557" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="254931:255261" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="255566:256274" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="255648:255978" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="256283:256992" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="256366:256696" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="257001:257710" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="257084:257414" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="257719:258427" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="257801:258131" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="258436:259145" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="258519:258849" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="259154:259862" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="259236:259566" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="259871:268354" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="259884:260080" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="268363:272972" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="268376:268572" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="272981:277862" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="272994:273190" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="277871:281748" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="277884:278080" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="281757:296352" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="281770:281991" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="296361:300630" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="296374:296595" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="300639:306085" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="300652:300873" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="306094:311962" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="306107:306328" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="311971:319725" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="311984:312180" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="319734:335288" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="319747:319943" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="335297:346945" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="335310:335506" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="346954:357134" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="346967:347163" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="357143:367719" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="357156:357352" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="367727:378975" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="378986:387389" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="378999:379195" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="387398:395882" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="387411:387632" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="395890:409401" ph="..." />
+            <marker date="1487253509036" expanded="true" signature="409410:409623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="183" column="1" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/babysitter2/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
           <folding />
         </state>
       </provider>

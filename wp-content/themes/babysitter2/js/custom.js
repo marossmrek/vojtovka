@@ -22,6 +22,7 @@
 
     $('body').addClass('js');
 
+
     /* ----------------------------------------------------------- */
     /*  1. Main Navigation
     /* ----------------------------------------------------------- */
@@ -271,8 +272,9 @@
          /* ----------------------------------------------------------- */
 
         var krajKonkretny;
-        var prehladavanyKraj;
+        var prehladavanyKraj = bratislavskyKraj;
         var bratislavskyKraj = [' Bratislava', 'Piestany']; // just example
+
 
         //event to clck on map
         $('svg').on('click', function(e){
@@ -281,22 +283,21 @@
                 krajKonkretny = kraj.getAttribute('data-name');
                 $('.maps_slovakia').fadeOut(1000);
 
-                $('.job_listing_type-cvici').remove();
-                $('.job_listing_type-docvicila').remove();
-                $('.job_types').remove();
+                $('.job_listing_type-cvici').detach();
+                $('.job_listing_type-docvicila').detach();
+                $('.job_types').detach();
 
                 // select kraj
                 if(krajKonkretny=="Bratislavský"){
                     prehladavanyKraj = bratislavskyKraj;
-                    console.log(prehladavanyKraj);
                 }
-        })
+        });
 
         /* ----------------------------------------------------------- */
         /*  12. Dirty register terapeut changing
          /* ----------------------------------------------------------- */
-        /*$('#submit-job-form > fieldset:nth-child(2) > label:nth-child(1)').remove();*/
-        /*$('.job-manager-error').text('Vyplnte všetke povinné polia');*/
+
+
         var text = jQuery('#submit-job-form > fieldset:nth-child(2) > label:nth-child(1)');
         if(text.text()=="Your email "){text.remove()}
         var terapeutForm = $('#post-555');
@@ -317,7 +318,7 @@
         }
         else if(storyList.hasClass('page post-498 type-page status-publish hentry')){
 
-            storyList.on('mouseenter',function(){
+            document.addEventListener("DOMContentLoaded", function(event) {
                 $('.job_listing_type-terapeut').remove();
                 $('.job_types > li:nth-child(2) > div:nth-child(1)').remove();
             });
@@ -325,48 +326,30 @@
 
         else if(terapeutList.hasClass('page post-582 type-page status-publish hentry')){
 
-            terapeutList.on('mouseenter',function(){
+            terapeutList.on('mouseenter',function() {
+
                 var kraje = $('.location');
-              /*  console.log(kraje);
-                console.log(prehladavanyKraj);*/
 
-                for ( var i = 0; kraje.length > i; i++ ){
+                for (var i = 0; kraje.length > i; i++) {
 
-                        var mesto = kraje[i].innerText;
-                        console.log(mesto);
+                    var mesto = kraje[i].innerText;
+                    var jobs = $('.job_listing_type-terapeut');
 
-                        for ( var j = 0; prehladavanyKraj.length > j; j++ ){
+                    for (var j = 0; prehladavanyKraj.length > j; j++) {
 
-                                console.log(prehladavanyKraj[j]);
+                        if (mesto == prehladavanyKraj[j]) {
 
-                                if ( mesto == prehladavanyKraj[j] ) {
+                            break;
+                        }
 
-                                    console.log('mesta sa shoduju');
+                        jobs[i].classList.add("remove");
+                    }
 
-                                }
-                                else {
-
-                                    console.log('nezhoduju sa mesta');
-                                }
-                        } continue;
+                    continue;
                 }
 
-
-
-
-
-                /*   for(var i = 0; kraje.length>i; i++){
-                       for(var j; prehladavanyKraj.length>j; j++){
-                           console.log(prehladavanyKraj[j].innerText);
-                           console.log(kraj[i]);
-                       }
-                   }*/
             });
         }
-
-
-
-
 
 
         // scroll body to 0px on click
