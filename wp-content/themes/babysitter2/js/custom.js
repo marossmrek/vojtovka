@@ -272,12 +272,19 @@
          /* ----------------------------------------------------------- */
 
         var krajKonkretny;
-        var prehladavanyKraj = bratislavskyKraj;
+        var prehladavanyKraj;
         var bratislavskyKraj = [' Bratislava', ' Malacky', ' Pezinok', ' Senec'];
         var trnavskyKraj     = [' Dunajská Streda', ' Galanta', ' Hlohovec', ' Piešťany', ' Senica', ' Skalica', ' Trnava'];
         var trencianskyKraj  = [' Bánovce nad Bebravou',' Ilava', ' Myjava', ' Nové Mesto nad Váhom',
                                 ' Partizánske', ' Považská Bystrica', ' Prievidza', ' Púchov', ' Trenčín'];
-        var nitrianskyraj    = [' Komárno', ' Levice', ' Nitra', ' Nové Zámky', ' Šaľa', ' Topoľčany', ' Zlaté Moravce'];
+        var nitriansKraj     = [' Komárno', ' Levice', ' Nitra', ' Nové Zámky', ' Šaľa', ' Topoľčany', ' Zlaté Moravce'];
+        var zilinskyKraj     = [' Bytča', ' Čadca', ' Dolný Kubín', ' Kysucké Nové Mesto', ' Liptovský Mikuláš', ' Martin',
+                                ' Námestovo', ' Ružomberok', ' Turčianske Teplice', ' Tvrdošín', ' Žilina'];
+        var banskobystrickyKyraj = 	[' Banska Bystrica', ' Banská Štiavnica', ' Brezno', ' Detva', ' Krupina', ' Lučenec', ' Poltár', ' Revúca',
+                                    ' Rimavská Sobota', ' Veľký Krtíš', ' Zvolen', ' Žarnovica', ' Žiar nad Hronom'];
+        var presovskyKraj    = [' Bardejov', ' Humenné', ' Kežmarok', ' Levoča', ' Medzilaborce', ' Poprad', ' Prešov', ' Sabinov',
+                                ' Snina', ' Stará Ľubovňa', ' Stropkov', ' Svidník', ' Vranov nad Topľou'];
+        var kosickyKraj      = [' Gelnica', ' Košice', ' Michalovce', ' Rožňava', ' Sobrance', ' Spišská Nová Ves', ' Trebišov'];
 
 
         //event to clck on map
@@ -302,7 +309,19 @@
                         prehladavanyKraj = trencianskyKraj
                         break;
                     case "Nitrianský":
-                        prehladavanyKraj = nitrianskyraj
+                        prehladavanyKraj = nitriansKraj
+                        break;
+                    case "Žilinský":
+                        prehladavanyKraj = zilinskyKraj
+                        break;
+                    case "Banskobystrický":
+                        prehladavanyKraj = banskobystrickyKyraj
+                        break;
+                    case "Prešovský":
+                        prehladavanyKraj = presovskyKraj
+                        break;
+                    case "Košický":
+                        prehladavanyKraj = kosickyKraj
                         break;
                     default:
                         prehladavanyKraj = bratislavskyKraj
@@ -349,11 +368,12 @@
                 for (var i = 0; kraje.length > i; i++) {
 
                     var mesto = kraje[i].innerText;
+                    console.log('toto porovnavam: ' + mesto);
                     var jobs = $('.job_listing_type-terapeut');
                     var isNotEmpty = -1;
 
                     for (var j = 0; prehladavanyKraj.length > j; j++) {
-
+                        console.log(prehladavanyKraj[j]);
                         if (mesto == prehladavanyKraj[j]) {
 
                             isNotEmpty = j;
