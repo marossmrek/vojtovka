@@ -273,7 +273,11 @@
 
         var krajKonkretny;
         var prehladavanyKraj = bratislavskyKraj;
-        var bratislavskyKraj = [' Bratislava', 'Piestany']; // just example
+        var bratislavskyKraj = [' Bratislava', ' Malacky', ' Pezinok', ' Senec'];
+        var trnavskyKraj     = [' Dunajská Streda', ' Galanta', ' Hlohovec', ' Piešťany', ' Senica', ' Skalica', ' Trnava'];
+        var trencianskyKraj  = [' Bánovce nad Bebravou',' Ilava', ' Myjava', ' Nové Mesto nad Váhom',
+                                ' Partizánske', ' Považská Bystrica', ' Prievidza', ' Púchov', ' Trenčín'];
+        var nitrianskyraj    = [' Komárno', ' Levice', ' Nitra', ' Nové Zámky', ' Šaľa', ' Topoľčany', ' Zlaté Moravce'];
 
 
         //event to clck on map
@@ -287,9 +291,21 @@
                 $('.job_listing_type-docvicila').remove();
                 $('.job_types').remove();
 
-                // select kraj
-                if(krajKonkretny=="Bratislavský"){
-                    prehladavanyKraj = bratislavskyKraj;
+                switch(krajKonkretny) {
+                    case "Bratislavský":
+                        prehladavanyKraj = bratislavskyKraj
+                        break;
+                    case "Trnavský":
+                        prehladavanyKraj = trnavskyKraj
+                        break;
+                    case "Trenčianský":
+                        prehladavanyKraj = trencianskyKraj
+                        break;
+                    case "Nitrianský":
+                        prehladavanyKraj = nitrianskyraj
+                        break;
+                    default:
+                        prehladavanyKraj = bratislavskyKraj
                 }
         });
 
@@ -326,7 +342,7 @@
 
         else if(terapeutList.hasClass('page post-582 type-page status-publish hentry')){
 
-            terapeutList.on('mouseenter',function() {
+            $('svg').on('click',function() {
 
                 var kraje = $('.location');
 
@@ -334,20 +350,25 @@
 
                     var mesto = kraje[i].innerText;
                     var jobs = $('.job_listing_type-terapeut');
+                    var isNotEmpty = -1;
 
                     for (var j = 0; prehladavanyKraj.length > j; j++) {
 
                         if (mesto == prehladavanyKraj[j]) {
 
+                            isNotEmpty = j;
+                            console.log(isNotEmpty);
                             break;
                         }
-
+                        continue;
+                    }
+                    if(mesto!=prehladavanyKraj[j]) {
                         jobs[i].classList.add("remove");
                     }
-
-                    continue;
                 }
-
+                if(isNotEmpty<0){
+                    console.log('nenasiel sa vysledok');
+                }
             });
         }
 
